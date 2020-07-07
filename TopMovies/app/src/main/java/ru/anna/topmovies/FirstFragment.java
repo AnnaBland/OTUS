@@ -45,7 +45,8 @@ public class FirstFragment extends Fragment {
 
     void getMovies() {
         apiInterface = ApiClient.getClient().create(MovieApiInterface.class);
-        apiInterface.getTopRatedMovies(apiKey, "ru").enqueue(
+//        apiInterface.getTopRatedMovies(apiKey, "ru").enqueue(
+        apiInterface.getPopularMovies(apiKey, "en").enqueue(
                 new Callback<MovieResponse>() {
                     @Override
                     public void onResponse(Call<MovieResponse> call, Response<MovieResponse> response) {
