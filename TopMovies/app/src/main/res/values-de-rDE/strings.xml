@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TopFilme</string>
+    <string name="action_settings">Einstellung</string>
+    <string name="first_fragment_label">Ersten Fragment</string>
+    <string name="second_fragment_label">Zweiten Fragment</string>
+    <string name="next">Nächsten</string>
+    <string name="previous">Vorherigen</string>
+    <string name="hello_first_fragment">Hallo ersten fragment</string>
+    <string name="hello_second_fragment">Hallo zweiten fragment. Arg: %1$s</string>
+</resources>
